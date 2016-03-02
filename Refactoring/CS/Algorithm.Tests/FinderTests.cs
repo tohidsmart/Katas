@@ -9,6 +9,7 @@ namespace Algorithm.Test
         [Fact]
         public void Returns_Empty_Results_When_Given_Empty_List()
         {
+			//Some comments
             var list = new List<Thing>();
             var finder = new Finder(list);
 
